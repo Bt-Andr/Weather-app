@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Météo en Temps Réel</title>
+    <link rel="icon" href="weather.ico" type="image/x-icon">
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>App Météo en Temps Réel</h1>
+            <button id="dark-mode-toggle">🌙</button>
+        </div>
+        <div class="search">
+            <input type="text" id="city-input" placeholder="Entrez une ville (ex: Paris)">
+            <button id="search-btn">Rechercher</button>
+            <button id="unit-toggle">°F</button>
+        </div>
+        <div id="loading" class="loading hidden">Chargement...</div>
+        <div id="error-message" class="error hidden"></div>
+        <div id="current-weather" class="weather-card hidden">
+            <h2 id="city-name"></h2>
+            <div class="weather-info">
+                <img id="weather-icon" src="" alt="Icône météo">
+                <div>
+                    <p id="temperature"></p>
+                    <p id="description"></p>
+                </div>
+            </div>
+            <div class="details">
+                <p>Humidité: <span id="humidity"></span>%</p>
+                <p>Vent: <span id="wind"></span> km/h</p>
+                <p>Pression: <span id="pressure"></span> hPa</p>
+                <p>Lever du soleil: <span id="sunrise"></span></p>
+                <p>Coucher du soleil: <span id="sunset"></span></p>
+            </div>
+        </div>
+        <div id="forecast" class="forecast hidden">
+            <h3>Prévisions sur 5 jours</h3>
+            <div id="forecast-container" class="forecast-grid"></div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

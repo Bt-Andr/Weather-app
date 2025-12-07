@@ -1,0 +1,16 @@
+{
+    "name": "App Météo en Temps Réel",
+    "short_name": "Météo App",
+    "description": "Application météo avec prévisions en temps réel",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#74b9ff",
+    "theme_color": "#0984e3",
+    "icons": [
+        {
+            "src": "weather.ico",
+            "sizes": "64x64",
+            "type": "image/x-icon"
+        }
+    ]
+}
