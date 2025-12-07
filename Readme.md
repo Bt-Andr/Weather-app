@@ -2,7 +2,7 @@
 
 Une application web moderne affichant la météo actuelle et les prévisions sur 5 jours, utilisant l'API OpenWeatherMap. Développée en HTML, CSS et JavaScript vanilla, elle met en avant des compétences en intégration d'APIs REST, gestion d'erreurs, interface responsive avec CSS Grid/Flexbox, et fonctionnalités avancées comme la géolocalisation et le mode sombre.
 
-![Capture d'écran de l'app](screenshot.png)  <!-- Remplace par une vraie image si tu en as une -->
+![Capture d'écran de l'app](meteo.png)(meteo_darkMode.png) <!-- Remplace par une vraie image si tu en as une -->
 
 ## 🚀 Fonctionnalités
 
